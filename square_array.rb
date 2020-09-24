@@ -4,9 +4,9 @@
   #arr
 #end
 
-def square_array(numbers)
+def square_array(arr)
   numbers = [1, 2, 3]
-  numbers.each do |num|
+  arr.each do |num|
     num ** 2
   end
 end
