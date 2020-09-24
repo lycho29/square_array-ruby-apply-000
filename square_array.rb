@@ -6,7 +6,5 @@
 
 def square_array(arr)
   numbers = [1, 2, 3]
-  arr.each do |num|
-    num ** 2
-  end
+  arr.each {|num| num ** 2 }
 end
